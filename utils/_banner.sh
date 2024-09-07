@@ -23,15 +23,14 @@ print_banner() {
 
 printf "${CYAN_LIGHT}";
 
-
-printf ${CYAN_LIGHT}" ____   ____  ________  ____    ____   ________    _       ________  ________  _______   \n";  
-printf ${CYAN_LIGHT}"|_  _| |_  _||_   __  ||_   \  /   _| |_   __  |  / \     |  __   _||_   __  ||_   __ \  \n"; 
-printf ${CYAN_LIGHT}"  \ \   / /    | |_ \_|  |   \/   |     | |_ \_| / _ \    |_/  / /    | |_ \_|  | |__) | \n";
-printf ${CYAN_LIGHT}"   \ \ / /     |  _| _   | |\  /| |     |  _|   / ___ \      .'.' _   |  _| _   |  __ /  \n";
-printf ${CYAN_LIGHT}"    \ ' /     _| |__/ | _| |_\/_| |_   _| |_  _/ /   \ \_  _/ /__/ | _| |__/ | _| |  \ \_\n";
-printf ${CYAN_LIGHT}"     \_/     |________||_____||_____| |_____||____| |____||________||________||____| |___|\n";
-                                                                                                                                                         
-  printf "            \033[1;33m        © CANAL VEM FAZER - https://www.youtube.com/channel/UCwFO9ylM7gHxYIXfJqAo1vQ\n";
+ printf ${CYAN_LIGHT}"__          ___    _       _______ _____ _____ _  ________ _______ 
+ printf ${CYAN_LIGHT}"\ \        / / |  | |   /\|__   __|_   _/ ____| |/ /  ____|__   __|
+ printf ${CYAN_LIGHT}" \ \  /\  / /| |__| |  /  \  | |    | || |    | ' /| |__     | |   
+ printf ${CYAN_LIGHT}"  \ \/  \/ / |  __  | / /\ \ | |    | || |    |  < |  __|    | |   
+ printf ${CYAN_LIGHT}"   \  /\  /  | |  | |/ ____ \| |   _| || |____| . \| |____   | |   
+ printf ${CYAN_LIGHT}"    \/  \/   |_|  |_/_/    \_\_|  |_____\_____|_|\_\______|  |_|   
+                                                                                                                                                                                                                       
+  printf "            \033[1;33m        © WHATICKET .CLICK - https://zap.whaticket.click";
   printf "${NC}";
 
   printf "\n"

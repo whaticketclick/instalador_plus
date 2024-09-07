@@ -1,54 +1,59 @@
-<h1 align="center">🚀 Canal Vem Fazer</h1>
-<img src="https://imgur.com/N9LGCka.gif" />
-<h1 align="center">Um sistema de tickets extremamente completo baseado em mensagens do WhatsApp.</h1> 
+Whaticket .Click
+<h1 align="center">🎉 Não quer gastar com VPS e domínio? Temos planos perfeitos para você! 🎉</h1> <h1 align="center">🔗 [Descubra tudo aqui!](https://zap.whaticket.click/) 🌟</h1>
+O que você precisa antes de começar
 
+scss
 
-## Vamos instalar?
+🌐 VPS com Ubuntu 20.04 ou Debian 11 (Dica: 2 VCPU's + 4 GB RAM ou mais é top!) 💻
+🌟 Subdomínio para o Frontend - APP (É o seu site!) 🖥️
+🔧 Subdomínio para o Backend - API (É onde a mágica rola!) 🛠️
+📧 Email válido para a certificação SSL (Para garantir que tudo está seguro!) 🔒
 
-FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
+Preparado para a instalação? 🚀✨
 
-```bash
-sudo apt install -y git && git clone https://github.com/canalvemfazer/instalador install && sudo chmod -R 777 ./install && cd ./install && sudo ./install_primaria
-```
+# Primeira Instalação
 
-ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
-```bash
-cd && cd ./install && sudo ./install_instancia
-```
+Solte esse feitiço mágico:
 
+    sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y software-properties-common git && git clone https://github.com/whaticketclick/instalador_plus /root/install && sudo chmod -R 777 /root/install && cd /root/install && sudo ./install
 
-## Para Instalação você precisa:
+Escolha o que deseja fazer: (Para a primeira instalação, escolha zero (0))
+[0] Instalar
+[1] Atualizar
+[2] Deletar
+[3] Bloquear
+[4] Desbloquear
+[5] Alterar domínio
 
-Uma VPS Ubuntu 20.04 (Configuração recomendada: 3 VCPU's + 4 GB RAM)
+🔒 Crie uma senha para o usuário Deploy (Não esqueça de anotar, ela vai ser útil para atualizações futuras!)
 
-Subdominio para Frontend - Seu frontend
+🔗 Quando pedir o endereço do repositório git, cole: https://github.com/whaticketclick/whaticket_plus.git
 
-Subdominio para API -Seu backend
+🏢 Escolha um nome para sua instância (Geralmente usamos o nome da empresa)
 
-Email válido para certificação SSL
+👥 Quantidade de usuários: 9999
 
-## Consultoria e contato:
+🌐 Quantidade de conexões: 9999
 
-    CANAL VEM FAZER LTDA
+🌍 Frontend APP: Primeiro endereço que você apontou para o IP da VPS Normalmente, usa-se app.seudomínio
 
-    Fone: 81 99627-7285(WhatsApp)
+🌍 Backend API: Segundo endereço que você apontou para o IP da VPS Normalmente, usa-se api.seudomínio
 
+🔌 Portas: Coloque na sequência: 3000, depois 4000 e por último 5000
 
-## Se o conteúdo te ajudou ajude este projeto:
-(Nos ajude a trazer novos conteúdos todos os dias!)
+Pronto! Agora é só relaxar e esperar a instalação finalizar.
 
+# Para Instalações Futuras
 
-  <div align="center">
-    <h3>Ajude com qualquer valor</h3>
-  <a href="https://nubank.com.br/pagar/1j4x3i/qA4jW8n5WR" target="_blank" rel="noopener noreferrer">
-    <img src="https://imgur.com/CQPHUBB.gif" style="width: 50% !important;">
-  </a>
-</div>
+Use esses comandos:
 
-Copia e cola:
+    cd && cd ./install && sudo ./install2
 
-    00020126360014BR.GOV.BCB.PIX0114+55819962772855204000053039865802BR5924Raphael Batista da silva6009SAO PAULO610805409000622305190WFy6iqYAgBMQNdtcgc630407B3
-    
+Consultoria e Contato
 
+📞 Whaticket.Click
 
+📱 Telefone: +55 (41) 99129-9592 (WhatsApp) 💬
 
+Curtiu o conteúdo e quer mais? 🙌 Que tal ajudar com o valor de um cafézinho? ☕️
+Chave PIX: 5541991299592
